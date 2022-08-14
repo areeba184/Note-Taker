@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "591048366836",
+    "firebase_url": "https://notemaker-5d4b7-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "notemaker-5d4b7",
+    "storage_bucket": "notemaker-5d4b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591048366836:android:ae267da0eaa04924d01ca1",
+        "android_client_info": {
+          "package_name": "areeba.learn.homework"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591048366836-6p00oc71ksqk19lf4e9u3f0cch8r2hru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeFP7u-kdQWP5F1blFiYcbe0DZ4AcnqjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591048366836-6p00oc71ksqk19lf4e9u3f0cch8r2hru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591048366836:android:598fa783a126fa15d01ca1",
+        "android_client_info": {
+          "package_name": "areeba.learn.notetaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591048366836-6p00oc71ksqk19lf4e9u3f0cch8r2hru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeFP7u-kdQWP5F1blFiYcbe0DZ4AcnqjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591048366836-6p00oc71ksqk19lf4e9u3f0cch8r2hru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
