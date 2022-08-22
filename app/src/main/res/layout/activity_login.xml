@@ -3,7 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/login_layout"
     tools:context=".LoginActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/goto_signup_button"
+        android:layout_alignParentEnd="true"
+        android:text="@string/signup"/>
 
     <EditText
         android:id="@+id/editUsername"
@@ -27,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/loginButton"
-        android:text="Login"
+        android:text="@string/login"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/editPassword"

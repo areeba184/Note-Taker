@@ -6,5 +6,13 @@
     <string name="new_activity">Hello There</string>
     <string name="enter_username">Enter Username</string>
     <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signup">signup</string>
+    <string name="login">Login</string>
+    <string name="type_here">Type here</string>
+    <string name="add_title">Add Title</string>
+    <string name="save">Save</string>
+    <string name="tap_add">No notes here, press the \'+\' button to add a new note</string>
+
 
 </resources>

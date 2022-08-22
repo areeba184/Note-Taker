@@ -26,7 +26,7 @@ public class LoginActivity extends AppCompatActivity {
     HashMap<String, String> logins = new HashMap<>();
 
     EditText editUsername, editPassword;
-    Button loginButon;
+    Button loginButon, signupButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +36,7 @@ public class LoginActivity extends AppCompatActivity {
         editPassword = findViewById(R.id.editPassword);
         editUsername = findViewById(R.id.editUsername);
         loginButon = findViewById(R.id.loginButton);
+        signupButton = findViewById(R.id.goto_signup_button);
 
         database = FirebaseDatabase
                 .getInstance("https://notemaker-5d4b7-default-rtdb.asia-southeast1.firebasedatabase.app");
@@ -76,10 +77,20 @@ public class LoginActivity extends AppCompatActivity {
                         editPassword.setError("Wrong Password!");
                     }
                     else if(logins.get(editUsername.getText().toString()).equals(editPassword.getText().toString())) {
-                        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                        Intent intent = new Intent(LoginActivity.this, NotesListActivity.class);
+                        intent.putExtra("signedInUser", editUsername.getText().toString());
                         startActivity(intent);
+                        finish();
                     }
                 }
+            }
+        });
+
+        signupButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LoginActivity.this, SignupActivity.class);
+                startActivity(intent);
             }
         });
     }
